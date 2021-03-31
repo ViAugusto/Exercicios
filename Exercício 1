@@ -1,0 +1,18 @@
+programa
+{
+	
+	inteiro num
+	funcao inicio()
+	{
+		escreva("Digite um número: \n")
+		leia(num)
+
+		limpa()
+		se (num >= 1) {
+			escreva("O número informado é positivo") }
+		senao se (num <= -1) {
+			escreva("O número informado é negativo") }
+		senao se (num == 0) {
+			escreva("O número informado é 0")}
+	}
+}
