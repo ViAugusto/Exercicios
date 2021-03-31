@@ -1,0 +1,14 @@
+programa
+{
+
+	
+inteiro contador, num= 5, resultado //Já foi indicado o valor do número para mostrar apenas a tabuada do 5.
+	funcao inicio()
+	{
+		para (contador = 1; contador <= 10; contador ++){ // Função feita para somar de 1 a 1 o contador até chegar em 10.
+			resultado = num * contador
+			escreva(num, ".", contador, " = ", resultado, "\n")
+		}
+		
+	}
+}
