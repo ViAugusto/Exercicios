@@ -1,0 +1,26 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro v1, v2, v3, res
+		escreva("Digite um número: \n")
+		leia(v1)
+		escreva("Digite outro número: \n")
+		leia(v2)
+		escreva("Digite outro número: \n")
+		leia(v3)
+		limpa()
+
+		se (v3<v2 e v3<v1 ){ // caso v3 seja menor que os outros, vamos somar os dois maiores que ele.
+			res = v1+v2
+			escreva("A soma dos dois maiores números é igual a ", res )}
+		senao se ( v2<v1 e v2<v3 ){ // caso v2 seja menor que os outros, vamos somar os dois maiores que ele.
+			res = v1+v3
+			escreva("A soma dos dois maiores números é igual a ", res )}
+		senao se ( v1<v2 e v1<v3 ){ // caso v1 seja menor que os outros, vamos somar os dois maiores que ele.
+			res = v2+v3
+			escreva("A soma dos dois maiores números é igual a ", res )}
+		
+	}
+}
