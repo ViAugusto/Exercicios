@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro v1, v2, v3
+		escreva("Digite um valor: \n")
+		leia(v1)
+		escreva("Digite outro valor: \n")
+		leia(v2)
+		escreva("Digite mais um valor: \n")
+		leia(v3)
+
+		se ( v1>v2 e v1>v3 ) { // caso o primeiro valor seja maior que o segundo e o terceiro será informado.
+			escreva("O número ", v1 , " é maior que ", v2 , " e ", v3 )}
+		senao se ( v2>v1 e v2>v3 ){
+			escreva("O número ", v2 , " é maior que ", v1 , " e ", v3 )}
+		senao se ( v3>v1 e v3>v2 ){
+			escreva("O número ", v3 , " é maior que ", v1 , " e ", v2 )}
+	}
+}
