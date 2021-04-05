@@ -1,0 +1,44 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, soma = 0
+		
+		escreva("Informe 10 valores: \n")
+		leia(n1)
+		leia(n2)
+		leia(n3)
+		leia(n4)
+		leia(n5)
+		leia(n6)
+		leia(n7)
+		leia(n8)
+		leia(n9)
+		leia(n10)
+
+		se (n1<40){
+			soma= soma + n1 
+			leia(soma)}
+			se (n2<40){
+				soma= soma + n2 }
+			se (n3<40){
+				soma= soma + n3 }
+			se (n4<40){
+				soma= soma + n4 }
+			se (n5<40){
+				soma= soma + n5 }
+			se (n6<40){
+				soma= soma + n6 }				
+			se (n7<40){
+				soma= soma + n7 }
+			se (n8<40){
+				soma= soma + n8 }
+			se (n9<40){
+				soma= soma + n9 }
+			se (n10<40){
+				soma= soma + n10 }
+				escreva("O resultado é: ", soma)
+		
+	}
+}
