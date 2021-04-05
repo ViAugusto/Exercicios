@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real altura, imc, peso
+		escreva("Digite seu peso \n")
+		leia(peso)
+		escreva("Digite sua altura \n")
+		leia(altura)
+
+		imc= (peso) / ( altura * altura )
+		escreva("Seu imc é: " , imc)
+	}
+}
