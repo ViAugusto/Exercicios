@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, soma
+		
+		escreva("Informe 10 valores: \n")
+		leia(n1)
+		leia(n2)
+		leia(n3)
+		leia(n4)
+		leia(n5)
+		leia(n6)
+		leia(n7)
+		leia(n8)
+		leia(n9)
+		leia(n10)
+
+		soma = n1+n2+n3+n4+n5+n6+n7+n8+n9+n10
+
+		limpa()
+		escreva("A soma dos números é igual a: ", soma)
+	}
+}
