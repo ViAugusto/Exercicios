@@ -1,0 +1,16 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro num, contador = 1
+
+		escreva("Digite um número que faremos uma contagem até ele: \n")
+		leia(num)
+
+		enquanto(contador < num){
+			contador = contador++
+			escreva(contador, "\n")
+		}
+	}
+}
