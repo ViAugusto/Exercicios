@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real prova1, prova2, prova3, prova4, media
+
+		leia(prova1)
+		leia(prova2)
+		leia(prova3)
+		leia(prova4)
+
+		media = (prova1+prova2+prova3+prova4)/4
+		escreva(" Sua média é ")
+		escreva(media)
+	}
+}
