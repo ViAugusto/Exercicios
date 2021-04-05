@@ -1,0 +1,16 @@
+programa
+{	
+	real custo, porcentagem, t, final
+	
+	funcao inicio()
+	{
+		escreva("Digite o valor do produto: \n")
+		leia(custo)
+		escreva("Digite a margem de lucro em porcentagem: \n")
+		leia(porcentagem)
+		
+		t = custo * (porcentagem/100)
+		final = custo + t
+		escreva("o preço final é R$", final)
+	}
+}
